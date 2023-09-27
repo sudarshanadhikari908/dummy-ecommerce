@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  accent-color: #fc5c32; 
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-35 {
+  margin-right: 35px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mb-2r{
+  margin-bottom: 2rem;
+}
+
+.mb-5{
+  margin-bottom: 15px;
+}
+
+.d-flex {
+  display: flex;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.align-end{
+  align-items: end;
+}
+.justify-end {
+  justify-content: end;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.gap-5 {
+  gap: 5px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+.gap-60{
+  gap: 60px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+.h-30 {
+  height: 30px;
+}
+
+input {
+  border: none; 
+  outline: none; 
+  box-shadow: none; 
+  caret-color: orange;
+}
+
+.color-primary {
+  color: #fc5c32;
+}
+.color-gray {
+  color: #777;
+}
+.color-white {
+  color: #fff;
+}
+
+.original-price {
+  text-decoration: line-through;
+  margin-right: 8px;
+  color: #777;
+}
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.quantity-button,
+.quantity-input {
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.quantity-button {
+  width: 30px;
+  border: 1px solid #ccc;
+}
+
+.quantity-input {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  text-align: center;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+.centered-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 40px; 
+  text-align: center;
+}

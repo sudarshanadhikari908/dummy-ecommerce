@@ -1,0 +1,42 @@
+.my-cart-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+  }
+
+ 
+  .action-card {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #eee4e4; 
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .action-card div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .carts {
+    flex: 2; 
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  
+  .checkout-section {
+    flex: 1; 
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #eee4e4;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  

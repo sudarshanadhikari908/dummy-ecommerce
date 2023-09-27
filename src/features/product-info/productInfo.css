@@ -1,0 +1,80 @@
+.card-content {
+  width: 80%; /* Set the card's width to 80% of the viewport width */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+  .card-content {
+    width: 80%;
+  }
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.big-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.small-images img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.right-section {
+  flex: 1; 
+  padding-left: 20px;
+  text-align: left;
+}
+
+.vertical-divider {
+  width: 2px;
+  height: 20px;
+  background-color: rgb(235, 80, 14);
+  display: inline-block;
+  margin: 0 10px;
+  border: 1px solid #fc5c32;
+  vertical-align: middle;
+}
+
+.discount {
+  display: flex;
+  color: #fc5c32;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.discount-amount {
+  background-color: #fc5c32;
+  color: white;
+  padding: 3px 10px; 
+  border-radius: 4px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.cart-button, .buy-button {
+  padding: 10px 20px;
+  color: white;
+}
+.cart-button {
+  background-color: #ffeee8;
+  color: #fc5c32;
+  border: 1px solid #fc5c32;
+}
+.buy-button {
+  background-color: #fc5c32;
+  border: 1px solid #fc5c32;
+}
